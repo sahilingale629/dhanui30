@@ -25,7 +25,7 @@ function App() {
   const [exchanges, setExchanges] = useState([]); // State to hold exchanges
   const [nseTokens, setNseTokens] = useState([]); // State to hold NSEtoken data
 
-  const URL = "https://dhanui29-backend.onrender.com";
+  const URL = "https://dhanui30-backend.onrender.com";
 
   useEffect(() => {
     const fetchCSV = async () => {
